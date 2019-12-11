@@ -1,0 +1,17 @@
+name: CI workflow of ginkgo biloba
+
+on: [push] process of ginkgo
+
+jobs:research of process of ginkgo
+  build:workfloe of process of ginkgo
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: Run a one-line script
+      run: echo Hello, world!
+    - name: Run a multi-line script
+      run: run_hw -f Makefile.fpga
+        echo Add other actions to build,
+        echo test, and deploy your project.
